@@ -3,7 +3,7 @@ name: Auto Assign Issues
 on:
   issues:
     types:
-      - opened  # Trigger the workflow when a new issue is created
+      - opened  
 
 jobs:
   assign-issue:
